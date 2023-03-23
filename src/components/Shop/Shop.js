@@ -5,6 +5,8 @@ import Cart from '../Cart/Cart';
 import { addToDb, deleteShoppingCart, getStoredCart } from '../../utilities/fakedb';
 import { Link, useLoaderData } from 'react-router-dom';
 
+//just to check to add to git 
+
 const Shop = () => {
     // const { products, count } = useLoaderData();
     const [products, setProducts] = useState([]);
